@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1776194528 source:g:\meu drive\estudos\ifsp - bcc\3° semestre\so\equacao2grau\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<windows.h>
+
