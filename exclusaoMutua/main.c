@@ -1,4 +1,3 @@
-//EXEMPLO SIMPLES DE EXCLUSAO MUTUA
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -14,7 +13,6 @@ void* incrementar(void* arg){
     for(int i=0; i<N;i++){//Processo que entra na Regiao Critica (Busy Waiting)
         //Enquanto a RC estiver ocupada, o while continua rodando
         while(atomic_flag_test_and_set(&trava)){
-
         }
         c++; //Procedimento que entra na RC quando ela estiver livre
         atomic_flag_clear(&trava);//Passa que a RC esta livre de procedimentos
