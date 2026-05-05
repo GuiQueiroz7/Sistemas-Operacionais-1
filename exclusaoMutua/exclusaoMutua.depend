@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1778005083 source:g:\meu drive\estudos\ifsp - bcc\3° semestre\so\códigos das aulas\exclusaomutua\main.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<pthread.h>
+	<stdatomic.h>
+
